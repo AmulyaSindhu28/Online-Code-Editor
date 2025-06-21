@@ -37,7 +37,7 @@ An intuitive online code editor with live preview for HTML, CSS, and JavaScript.
 ## File Structure
 
 ```
-.
+
 Online-Code-Editor/
 ├── node_modules/             # Project dependencies (auto-generated)
 ├── public/                   # Static files served directly
@@ -75,7 +75,8 @@ Contributions are welcome! To contribute:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this software in accordance with the license terms.
 
 ---
 Happy coding! 🚀
