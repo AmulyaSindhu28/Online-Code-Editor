@@ -38,19 +38,22 @@ An intuitive online code editor with live preview for HTML, CSS, and JavaScript.
 
 ```
 .
-├── public
-│   ├── index.html    # Main HTML file
-│   └── favicon.ico   # Project icon
-├── src
-│   ├── components    # React components
-│   │   ├── Editor.js # Code editor component
-│   │   ├── Preview.js# Live preview component
-│   ├── App.js        # Main application file
-│   ├── index.js      # Entry point
-│   └── styles.css    # Styling for the app
-├── package.json      # Project metadata and dependencies
-└── README.md         # Project documentation
-```
+Online-Code-Editor/
+├── node_modules/             # Project dependencies (auto-generated)
+├── public/                   # Static files served directly
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── src/                      # Source code
+│   ├── CodeEditorWithPreview.js   # Your main component (name trimmed)
+│   ├── index.css             # Main CSS file
+│   └── index.js              # Entry point JS file
+├── .gitignore                # Git ignored files and folders
+├── package-lock.json         # Exact versions of dependencies
+├── package.json              # Project configuration and dependencies
+└── README.md                 # Project documentation
+
 
 ## Usage
 
