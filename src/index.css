@@ -1,13 +1,48 @@
+
+
+/* Base styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Control bar */
+.controls {
+  background-color: #f1f1f1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Grid container */
+.grid-container {
+  flex-grow: 1;
+  display: grid;
+  gap: 10px;
+  height: 100%;
+}
+
+/* Side-by-side layout */
+.side-by-side {
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+}
+
+/* Full preview layout */
+.full-preview {
+  grid-template-columns: 1fr; /* Single column */
+}
+
+/* Editors and Preview */
+.editor {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.preview {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
 }
